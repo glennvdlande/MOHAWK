@@ -194,8 +194,8 @@ fprintf('\n*** PLOTTING SPECTRUM ***\n');
 % visualise and save the power spectrum of all channels
 plotftspec(basename);
 
+
 fprintf('\n*** CALCULATING MULTITAPER SPECTRUM ***\n');
-% calculate, plot and save the Figure of the ABCD EEG classification
 calcftspec(basename);
 
 fprintf('\n*** CALCULATING CONNECTIVITY ***\n');
